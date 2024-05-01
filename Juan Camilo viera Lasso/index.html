@@ -1,31 +1,51 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio de Sesión</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+    <title>Simple Homepage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="main-container">
-        <div class="video-container">
-            <video autoplay loop muted preload="metadata">
-                <source src="castle leon.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="login-container">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Capcom_logo_black.svg/512px-Capcom_logo_black.svg.png?20210806230756" alt="Logo de Capcom" class="logo">
-            <form action="login.php" method="post">
-                <p class="texto">Actions for Accessibility in Design</p>
-                <p class="texto2">The fastest way to build and deploy websites with resusable components.</p>
-                <div class="input-container">
-                
-                </div>
-                <button type="submit">GET STARTED</button>
-            </form>
-        </div>
-    </div>
-</body>
-</html>
 
+<body>
+    <nav>
+        <img src="alarado-icon-homepage-dark.svg" alt="Icon" id="icono">
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#resource">Resource</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="mode" id="mode">
+            <div class="circle-container">
+                <img src="Moon_fill_light.svg" alt="Toggle Dark Mode" id="moon">
+            </div>
+            <img src="Sun_fill.svg" alt="" id="sun">
+        </div>
+    </nav>
+
+    <main>
+        <div class="seccion1">
+            <p id="title">😎 Simple way to communicate</p>
+            <h1>Actions for <br> Accessibility <br> in Design</h1>
+            <p>The fastest way to build and deploy websites with <br> resusable components.</p>
+            <div class="botones" id="botones">
+                <input id="btn1" type="button" value="GET STARTED">
+                <input id="btn2" type="button" value="Get live demo">
+            </div>
+            <div class="list">
+                <img src="Done_ring_round_fill.svg" alt="">
+                <small>No credit card required</small>
+                <img src="Done_ring_round_fill.svg" alt="">
+                <small>No software to install</small>
+            </div>
+        </div>
+        <div class="seccion2">
+            <img src="hero-image-simple-homepage.png" alt="">
+        </div>
+    </main>
+</body>
+
+</html>
